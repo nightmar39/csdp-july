@@ -1,0 +1,16 @@
+{
+  "appName": "test",
+  "userGivenName": "test",
+  "destNamespace": "csdp-july",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "argocd-definitions",
+  "srcRepoURL": "https://github.com/nightmar39/cd-five-mins.git",
+  "srcTargetRevision": "hosted-demo",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
