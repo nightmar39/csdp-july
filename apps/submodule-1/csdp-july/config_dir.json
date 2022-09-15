@@ -4,7 +4,7 @@
   "destNamespace": "csdp-july",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "dev",
-  "srcRepoURL": "https://github.com/nightmar39/argo-submodule.git",
+  "srcRepoURL": "git@github.com:nightmar39/argo-submodule.git",
   "srcTargetRevision": "main",
   "labels": {
     "codefresh_io_entity": "git-source",
