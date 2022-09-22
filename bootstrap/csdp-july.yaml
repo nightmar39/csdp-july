@@ -15,27 +15,27 @@ data:
       components:
       - name: events
         type: kustomize
-        url: github.com/codefresh-io/cli-v2/manifests/argo-events?ref=v0.0.523
+        url: github.com/codefresh-io/cli-v2/manifests/argo-events?ref=v0.0.524
         wait: true
       - name: rollouts
         type: kustomize
-        url: github.com/codefresh-io/cli-v2/manifests/argo-rollouts?ref=v0.0.523
+        url: github.com/codefresh-io/cli-v2/manifests/argo-rollouts?ref=v0.0.524
       - name: workflows
         type: kustomize
-        url: github.com/codefresh-io/cli-v2/manifests/argo-workflows?ref=v0.0.523
+        url: github.com/codefresh-io/cli-v2/manifests/argo-workflows?ref=v0.0.524
       - name: app-proxy
         syncWave: 9
         type: kustomize
-        url: github.com/codefresh-io/cli-v2/manifests/app-proxy?ref=v0.0.523
+        url: github.com/codefresh-io/cli-v2/manifests/app-proxy?ref=v0.0.524
       - name: sealed-secrets
         type: kustomize
-        url: github.com/codefresh-io/cli-v2/manifests/sealed-secrets?ref=v0.0.523
+        url: github.com/codefresh-io/cli-v2/manifests/sealed-secrets?ref=v0.0.524
       defVersion: 2.0.0
       ingressClassName: nginx
       ingressController: k8s.io/ingress-nginx
       ingressHost: https://rozario-demo.sa.cf-cd.com
       repo: https://github.com/nightmar39/csdp-july.git
-      version: 0.0.523
+      version: 0.0.524
 kind: ConfigMap
 metadata:
   creationTimestamp: null
