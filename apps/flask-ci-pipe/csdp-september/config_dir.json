@@ -1,0 +1,16 @@
+{
+  "appName": "flask-ci-pipe",
+  "userGivenName": "flask-ci-pipe",
+  "destNamespace": "csdp-september",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "flask",
+  "srcRepoURL": "https://github.com/nightmar39/september-pipelines.git",
+  "srcTargetRevision": "main",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
