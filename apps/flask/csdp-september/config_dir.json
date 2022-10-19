@@ -1,0 +1,16 @@
+{
+  "appName": "flask",
+  "userGivenName": "flask",
+  "destNamespace": "csdp-september",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "k8s",
+  "srcRepoURL": "https://github.com/nightmar39/flask-bg-app.git",
+  "srcTargetRevision": "main",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
