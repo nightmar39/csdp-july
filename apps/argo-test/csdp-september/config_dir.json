@@ -1,0 +1,16 @@
+{
+  "appName": "argo-test",
+  "userGivenName": "argo-test",
+  "destNamespace": "csdp-september",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "dev",
+  "srcRepoURL": "https://github.com/nightmar39/argo-express.git",
+  "srcTargetRevision": "main",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
