@@ -10,12 +10,7 @@ configMapGenerator:
       usernameSecret:
         key: git_username
         name: autopilot-secret
-  - url=https://rozario-demo.sa.cf-cd.com/argocd
   name: argocd-cm
-- behavior: merge
-  literals:
-  - server.rootpath=/argocd
-  name: argocd-cmd-params-cm
 kind: Kustomization
 namespace: csdp-september
 resources:
