@@ -14,8 +14,4 @@ configMapGenerator:
 kind: Kustomization
 namespace: csdp-september
 resources:
-- github.com/codefresh-io/cli-v2/manifests/argo-cd
-
-
-
-
+- github.com/codefresh-io/csdp-official/csdp/hybrid/basic/apps/argo-cd?ref=0.1.18
