@@ -5,7 +5,7 @@
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps",
   "srcRepoURL": "https://github.com/nightmar39/bg-flask-color.git",
-  "srcTargetRevision": "main",
+  "srcTargetRevision": " main",
   "labels": {
     "codefresh_io_entity": "git-source",
     "codefresh_io_internal": "false"
