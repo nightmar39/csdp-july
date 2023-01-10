@@ -1,0 +1,16 @@
+{
+  "appName": "flask-kustomize-2",
+  "userGivenName": "flask-kustomize-2",
+  "destNamespace": "csdp-september",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps",
+  "srcRepoURL": "https://github.com/nightmar39/flask-kustomize.git",
+  "srcTargetRevision": "main",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
